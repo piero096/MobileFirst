@@ -377,3 +377,140 @@ main{
 .features-parent .features-parent-container .target-four{
   margin-bottom: 47px;
 }
+
+.conocelo{
+  width: 100%;
+  height: auto;
+}
+
+.conocelo-title{
+  margin: 0 auto;
+  background-image: url(./assets/img/bitcoinbaby.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 516px;
+  height: 387px;
+
+}
+
+.conocelo-title{
+  padding-top: 64px;
+}
+.conocelo-title .title h3{
+  color: var(--just-white);
+  font-size: 2.4rem;
+}
+
+.container-parent-planes{
+  width: 100%;
+  height: auto;
+}
+ 
+.container-planes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-parent-planes .container-planes{
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 6.4rem;
+}
+
+.container-parent-planes .container-planes .container-planes-title h3{
+  color: var(--warm-black);
+  font-size: 2.4rem;
+}
+
+.container-parent-planes .container-planes .container-planes-title p{
+  color: rgba(117, 117, 117, 1);
+  font-size: 1.4rem;
+  margin-top: 2.4rem;
+}
+
+.container-parent-planes .container-planes .container-planes-card{
+  margin-top: 3.4rem;
+}
+
+.container-planes-card{
+  background-color: var(--off-white);
+  width: 190px;
+  height: 247px;
+  border-radius: 8px;
+  position: relative;
+  padding: 3.1rem 1.6rem 2.4rem 1.6rem;
+}
+
+.container-planes-card a{
+  display: inline-block;
+  background-color: var(--bitcoin-orange);
+  width: 101px;
+  height: 31px;
+  border-radius: 8px;
+  text-decoration: none;
+  padding-top: 7px;
+  position: absolute;
+  top: -15px;
+  left: calc(50% - 50px);
+}
+
+.container-planes-card .card-title{
+  color: var(--just-white);
+  font-size: 1.2rem;
+}
+
+.container-planes-card h4{
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+}
+
+.container-planes-card .card-precio{
+  margin-top: 1.6rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-planes-card .card-precio .moneda{
+  margin-top: 1.2rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  align-self: flex-start;
+}
+
+.container-planes-card .card-precio .precio{
+  font-size: 5.2rem;
+  font-weight: 700;
+}
+.container-planes-card .card-description{
+  font-size: 1.2rem;
+  color: rgba(117, 117, 117, 1);
+}
+
+.container-planes-card .card-escoger{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.6rem;
+  width: 151px;
+  height: 48px;
+  border: solid 2px var(--bitcoin-orange);
+  border-radius: 4px;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+ .card-escoger span{
+  display: inline-block;
+  width: 24px;
+  height: 24px; 
+  margin-left: 8px;
+  background-image: url(./assets/icons/right-arrow.svg); 
+}
+
