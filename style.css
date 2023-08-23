@@ -437,11 +437,16 @@ main{
 
 .container-planes-card{
   background-color: var(--off-white);
-  width: 190px;
+  min-width: 190px;
+  max-width: 500px;
   height: 247px;
   border-radius: 8px;
   position: relative;
   padding: 3.1rem 1.6rem 2.4rem 1.6rem;
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .container-planes-card a{
@@ -512,5 +517,48 @@ main{
   height: 24px; 
   margin-left: 8px;
   background-image: url(./assets/icons/right-arrow.svg); 
+}
+
+.footer{
+  margin-top: 6.4rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  padding: 10px 0px;
+  background: var(--bitcoin-orange);
+}
+
+.footer .footer-container{
+  position: relative;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 52px;
+  
+}
+
+.footer .footer-container ul{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .footer-container ul li{
+  list-style: none;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--just-white);
+}
+
+.footer .footer-container div span{
+  display: inline-block;
+  width: 6.4rem;
+  height: 5.0rem;
+  background-image: url(./assets/img/logo-footer.svg);
+
 }
 
